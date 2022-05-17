@@ -1,0 +1,9 @@
+E:\temp\DB2JSON\DB2JSON\bin\x86\Debug\DB2JSON.exe
+E:\temp\DB2JSON\DB2JSON\bin\x86\Debug\DB2JSON.pdb
+E:\temp\DB2JSON\DB2JSON\bin\x86\Debug\Newtonsoft.Json.dll
+E:\temp\DB2JSON\DB2JSON\obj\x86\Debug\DB2JSON.csprojResolveAssemblyReference.cache
+E:\temp\DB2JSON\DB2JSON\obj\x86\Debug\DB2JSON.MainForm.resources
+E:\temp\DB2JSON\DB2JSON\obj\x86\Debug\DB2JSON.Properties.Resources.resources
+E:\temp\DB2JSON\DB2JSON\obj\x86\Debug\DB2JSON.csproj.GenerateResource.Cache
+E:\temp\DB2JSON\DB2JSON\obj\x86\Debug\DB2JSON.exe
+E:\temp\DB2JSON\DB2JSON\obj\x86\Debug\DB2JSON.pdb

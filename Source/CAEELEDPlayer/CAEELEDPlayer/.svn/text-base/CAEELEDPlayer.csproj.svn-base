@@ -1,0 +1,267 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{28B59D9D-A0D3-4AD1-8453-7C29BD973AC3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CAEELEDPlayer</RootNamespace>
+    <AssemblyName>CAEELEDPlayer</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Newtonsoft.Json, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ZedGraph, Version=5.0.9.30106, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\AccessHelper.cs" />
+    <Compile Include="Common\Model\Buy.cs" />
+    <Compile Include="Common\GridViewEx.cs" />
+    <Compile Include="Common\Model\ProjectFiled.cs" />
+    <Compile Include="Common\Model\ProjectShowInfo.cs" />
+    <Compile Include="Common\Model\ProjectStatus.cs" />
+    <Compile Include="Common\Model\ResponseData.cs" />
+    <Compile Include="Common\RequestData.cs" />
+    <Compile Include="Common\Screen2Data.cs" />
+    <Compile Include="Common\CommFunction.cs" />
+    <Compile Include="Common\ConfigReader.cs" />
+    <Compile Include="Common\FormControl.cs" />
+    <Compile Include="ExControls\Clock\ClockControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ExControls\Clock\ClockControl.Designer.cs">
+      <DependentUpon>ClockControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExControls\Clock\LEDClockControls.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ExControls\MyColorDialog.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExControls\MyFontDialog.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExControls\PanelEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Common\Model\ProjectInfo.cs" />
+    <Compile Include="Common\Screen1Data.cs" />
+    <Compile Include="frmFlashDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFlashDemo.Designer.cs">
+      <DependentUpon>frmFlashDemo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="Settings\SettingsCommon.cs" />
+    <Compile Include="Settings\SettingsScreen1.cs" />
+    <Compile Include="Settings\SettingsScreen2.cs" />
+    <Compile Include="Settings\SettingsScreen3.cs" />
+    <Compile Include="Settings\SettingsScreen4.cs" />
+    <Compile Include="Common\WebSvcCaller.cs" />
+    <Compile Include="frmConsole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsole.Designer.cs">
+      <DependentUpon>frmConsole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLEDScreen1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLEDScreen1.Designer.cs">
+      <DependentUpon>frmLEDScreen1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmScreenSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmScreenSetting.Designer.cs">
+      <DependentUpon>frmScreenSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ExControls\Clock\ClockControl.resx">
+      <DependentUpon>ClockControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExControls\Clock\LEDClockControls.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LEDClockControls.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsole.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConsole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFlashDemo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmFlashDemo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLEDScreen1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLEDScreen1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmScreenSetting.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmScreenSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLEDScreen2.resx">
+      <DependentUpon>frmLEDScreen2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLEDScreen3.resx">
+      <DependentUpon>frmLEDScreen3.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLEDScreen4.resx">
+      <DependentUpon>frmLEDScreen4.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="frmLEDScreen2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLEDScreen2.Designer.cs">
+      <DependentUpon>frmLEDScreen2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLEDScreen3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLEDScreen3.Designer.cs">
+      <DependentUpon>frmLEDScreen3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLEDScreen4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLEDScreen4.Designer.cs">
+      <DependentUpon>frmLEDScreen4.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Newtonsoft.Json.dll" />
+    <Content Include="bin\Newtonsoft.Json.XML" />
+    <Content Include="bin\ZedGraph.dll" />
+    <Content Include="bin\ZedGraph.pdb" />
+    <Content Include="bin\ZedGraph.XML" />
+    <Content Include="Flash\BuyEnd.swf" />
+    <Content Include="Flash\BuyEnd1.swf" />
+    <Content Include="Flash\BuyStart.swf" />
+    <Content Include="Flash\test.txt" />
+    <Content Include="logo.ico" />
+    <Content Include="Resources\jtbq_009.png" />
+    <Content Include="Resources\jtbq_010.png" />
+    <Content Include="Resources\jtbq_011.png" />
+    <Content Include="Resources\jtbq_012.png" />
+    <Content Include="Resources\jtbq_013.png" />
+    <Content Include="Resources\jtbq_014.png" />
+    <Content Include="Resources\jtbq_015.png" />
+    <Content Include="Resources\jtbq_016.png" />
+    <Content Include="Resources\logo.ico" />
+    <Content Include="Resources\LOGO.png" />
+    <None Include="Resources\MusicStart.wav" />
+    <None Include="Resources\MusicEnd.wav" />
+    <None Include="Doc\getProjectList.json" />
+    <None Include="Doc\getProjectShowInfoList.json" />
+    <None Include="Doc\W1000031getProjectList.json" />
+    <None Include="Doc\文交所系统大屏显示客户端需求概述%2820110322%29.doc" />
+    <None Include="Resources\LEDInfo.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ScrollingTextControl\ScrollingTextControl.csproj">
+      <Project>{8029AAEC-8B7C-4098-9C5F-EF2795F21BC5}</Project>
+      <Name>ScrollingTextControl</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="ShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

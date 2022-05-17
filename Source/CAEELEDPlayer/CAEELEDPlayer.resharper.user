@@ -1,0 +1,505 @@
+<Configuration>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:CAEELEDPlayer.frmConsole">
+      <Item value="panelBackColor" priority="0" />
+      <Item value="TabScreen" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataSet">
+      <Item value="Tables" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@CAEELEDPlayer.Common.Screen1Data.frm">
+      <Item value="FConsole" priority="0" />
+      <Item value="FScreen1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="TryParse" priority="1" />
+      <Item value="Parse" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ScrollingTextControl.ScrollDirection">
+      <Item value="RightToLeft" priority="2" />
+      <Item value="LeftToRight" priority="0" />
+      <Item value="Bouncing" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Boolean">
+      <Item value="Parse" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text.RegularExpressions.Regex">
+      <Item value="Split" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;CAEELEDPlayer.Common.Model.Buy&gt;">
+      <Item value="FindAll" priority="0" />
+      <Item value="Clear" priority="0" />
+      <Item value="Count" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System">
+      <Item value="Windows.Forms" priority="0" />
+      <Item value="Collections" priority="0" />
+      <Item value="IO" priority="0" />
+      <Item value="Threading" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ScrollingTextControl.ScrollingText">
+      <Item value="Text" priority="0" />
+      <Item value="TextScrollSpeed" priority="3" />
+      <Item value="ScrollDirection" priority="1" />
+      <Item value="Font" priority="0" />
+      <Item value="ScrollText" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.StreamWriter">
+      <Item value="Flush" priority="0" />
+      <Item value="BaseStream" priority="0" />
+      <Item value="Write" priority="0" />
+      <Item value="Close" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CAEELEDPlayer.frmLEDScreen1">
+      <Item value="RowHeight" priority="1" />
+      <Item value="lbl_CurrentTime" priority="5" />
+      <Item value="GridViewDate" priority="3" />
+      <Item value="SetRowHeight" priority="0" />
+      <Item value="lblTitle" priority="4" />
+      <Item value="scrollingTextAffiche" priority="1" />
+      <Item value="Focus" priority="0" />
+      <Item value="panelTitle" priority="0" />
+      <Item value="AddData" priority="0" />
+      <Item value="panelContent" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TabControl.TabPageCollection">
+      <Item value="Remove" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.StringBuilder">
+      <Item value="Append" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@CAEELEDPlayer.Common.FormControl">
+      <Item value="CreateInstance" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Thread">
+      <Item value="Sleep" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Enum">
+      <Item value="GetName" priority="0" />
+      <Item value="GetValues" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Media.SoundPlayer">
+      <Item value="Play" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@CAEELEDPlayer.Common.ConfigReader">
+      <Item value="RequestSource" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CAEELEDPlayer.Settings.SettingsScreen2">
+      <Item value="S2MusicNoOneOpen" priority="0" />
+      <Item value="ID" priority="2" />
+      <Item value="S2EndMusicOpen" priority="0" />
+      <Item value="S2MusicSomeOne" priority="0" />
+      <Item value="S2LedClockBackColor" priority="0" />
+      <Item value="S2DetailHeadBackColor" priority="0" />
+      <Item value="S2ClockBackColor" priority="0" />
+      <Item value="S2BaseDataSyn" priority="0" />
+      <Item value="S2DetailContextHeight" priority="0" />
+      <Item value="S2StartMusicOpen" priority="0" />
+      <Item value="S2AreaBackColorTime" priority="0" />
+      <Item value="S2BaseHeadBackColor" priority="0" />
+      <Item value="S2BuyTitleFont" priority="0" />
+      <Item value="S2MusicNoOne" priority="1" />
+      <Item value="S2BaseColumnsWidth" priority="0" />
+      <Item value="S2DetailDataSyn" priority="0" />
+      <Item value="S2BaseAutoSizeColumns" priority="0" />
+      <Item value="S2BaseColumnsBackColor" priority="0" />
+      <Item value="S2DetailHeadHeight" priority="0" />
+      <Item value="S2DetailContextGridColor" priority="0" />
+      <Item value="S2BaseColumnsFont" priority="0" />
+      <Item value="S2AfficheForeColor" priority="0" />
+      <Item value="S2BuyTitleHeight" priority="0" />
+      <Item value="S2ProjectTitleForeColor" priority="0" />
+      <Item value="S2ProjectTitleFont" priority="0" />
+      <Item value="S2ProjectTitleText" priority="0" />
+      <Item value="S2StartMusic" priority="0" />
+      <Item value="S2AfficheHeight" priority="0" />
+      <Item value="S2MinuteHandColor" priority="0" />
+      <Item value="S2DetailAutoSizeColumns" priority="0" />
+      <Item value="S2AreaBackColorBase" priority="0" />
+      <Item value="S2BaseBorderStyle" priority="0" />
+      <Item value="S2DetailContextForeColor" priority="0" />
+      <Item value="S2StartShowForeColor" priority="0" />
+      <Item value="S2DetailContextFont" priority="0" />
+      <Item value="S2StartShowText" priority="0" />
+      <Item value="S2DetailColumns" priority="0" />
+      <Item value="S2MusicSomeOneOpen" priority="0" />
+      <Item value="S2BaseContextFont" priority="0" />
+      <Item value="S2LedClockHeight" priority="0" />
+      <Item value="S2HourHandColor" priority="0" />
+      <Item value="S2BaseHeadHeight" priority="0" />
+      <Item value="S2AfficheFont" priority="0" />
+      <Item value="S2ScaleColor" priority="0" />
+      <Item value="S2BaseContextGridColor" priority="0" />
+      <Item value="S2BuyTitleColor" priority="0" />
+      <Item value="S2AfficheText" priority="0" />
+      <Item value="S2DetailHeadFont" priority="0" />
+      <Item value="S2DetailBorderStyle" priority="0" />
+      <Item value="S2DetailBorderWidth" priority="0" />
+      <Item value="S2BaseBorderWidth" priority="0" />
+      <Item value="S2BaseContextForeColor" priority="0" />
+      <Item value="S2DetailHeadForeColor" priority="0" />
+      <Item value="S2BaseColumnsForeColor" priority="0" />
+      <Item value="S2BaseContextHeight" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading">
+      <Item value="Thread" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CAEELEDPlayer.Common.Model.ProjectFiled">
+      <Item value="endTime" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@CAEELEDPlayer.Common.FormControl.thRequestData">
+      <Item value="Start" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Configuration.ConfigurationManager">
+      <Item value="AppSettings" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@CAEELEDPlayer.Common.Screen2Data+Status.Wait">
+      <Item value="ToString" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CAEELEDPlayer.frmFlashDemo">
+      <Item value="blFlag" priority="0" />
+      <Item value="iCloseFlash" priority="0" />
+      <Item value="blSuccess" priority="0" />
+      <Item value="frmTemp" priority="0" />
+      <Item value="Show" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.NumericUpDown">
+      <Item value="Name" priority="4" />
+      <Item value="Value" priority="12" />
+      <Item value="Validate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;System.Drawing.Font&gt;">
+      <Item value="Add" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.AutoResetEvent">
+      <Item value="Set" priority="0" />
+      <Item value="WaitOne" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Button">
+      <Item value="BackColor" priority="0" />
+      <Item value="Font" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.BorderStyle">
+      <Item value="Fixed3D" priority="1" />
+      <Item value="None" priority="3" />
+      <Item value="FixedSingle" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@">
+      <Item value="AddRange" priority="0" />
+      <Item value="Split" priority="2" />
+      <Item value="param" priority="0" />
+      <Item value="Cmd" priority="2" />
+      <Item value="TrimStart" priority="1" />
+      <Item value="Remove" priority="5" />
+      <Item value="FScreen2" priority="0" />
+      <Item value="Content" priority="1" />
+      <Item value="Replace" priority="0" />
+      <Item value="Length" priority="11" />
+      <Item value="Substring" priority="5" />
+      <Item value="Count" priority="4" />
+      <Item value="X" priority="0" />
+      <Item value="Y" priority="0" />
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CAEELEDPlayer.Common.Model.ResponseData">
+      <Item value="Content" priority="4" />
+      <Item value="Cmd" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox">
+      <Item value="SelectedIndex" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewColumnCollection">
+      <Item value="Contains" priority="0" />
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ScrollingTextControl.ScrollDirection">
+      <Item value="RightToLeft" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Timer">
+      <Item value="Change" priority="0" />
+      <Item value="Dispose" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CAEELEDPlayer.frmLEDScreen2">
+      <Item value="strMusicNoOne" priority="3" />
+      <Item value="WaitBuy" priority="0" />
+      <Item value="lblHeadBase" priority="2" />
+      <Item value="iBaseSpan" priority="0" />
+      <Item value="scrollingTextAffiche" priority="1" />
+      <Item value="blMusicNoOneOpen" priority="3" />
+      <Item value="BackColor" priority="0" />
+      <Item value="blMusicNoOne" priority="0" />
+      <Item value="DetailContextHeight" priority="1" />
+      <Item value="LblTimeDown" priority="2" />
+      <Item value="SuspendBuy" priority="0" />
+      <Item value="StartBuy" priority="0" />
+      <Item value="frmChBuy" priority="1" />
+      <Item value="BindBuyDetail" priority="0" />
+      <Item value="strMusicSomeOne" priority="3" />
+      <Item value="Name" priority="0" />
+      <Item value="DetailHeadHeight" priority="0" />
+      <Item value="GVBiddingCustomerInfo" priority="11" />
+      <Item value="ChangeFiled" priority="0" />
+      <Item value="Location" priority="0" />
+      <Item value="BaseContextHeight" priority="1" />
+      <Item value="lbl_CurrentTime" priority="2" />
+      <Item value="iDetailSpan" priority="0" />
+      <Item value="GVBiddingInfo" priority="21" />
+      <Item value="blListDetail" priority="0" />
+      <Item value="blMusicSomeOneOpen" priority="3" />
+      <Item value="EndBuy" priority="0" />
+      <Item value="ledClockControls1" priority="0" />
+      <Item value="RecoverBuy" priority="0" />
+      <Item value="blMusicStartOpen" priority="3" />
+      <Item value="ForeColor" priority="0" />
+      <Item value="blList" priority="1" />
+      <Item value="BindProjectBaseInfo" priority="0" />
+      <Item value="blMusicEndOpen" priority="3" />
+      <Item value="Size" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CAEELEDPlayer.frmLEDScreen3">
+      <Item value="scrollingTextAffiche" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@CAEELEDPlayer.Common.Screen2Data+Status">
+      <Item value="Wait" priority="2" />
+      <Item value="Active" priority="0" />
+      <Item value="Suspend" priority="0" />
+      <Item value="Recover" priority="0" />
+      <Item value="End" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridView">
+      <Item value="Focus" priority="0" />
+      <Item value="RowsDefaultCellStyle" priority="7" />
+      <Item value="GridColor" priority="1" />
+      <Item value="Focused" priority="1" />
+      <Item value="DefaultCellStyle" priority="8" />
+      <Item value="ColumnCount" priority="0" />
+      <Item value="ColumnHeadersHeight" priority="1" />
+      <Item value="Columns" priority="6" />
+      <Item value="Rows" priority="20" />
+      <Item value="BorderStyle" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;CAEELEDPlayer.Common.Model.ProjectShowInfo&gt;">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;CAEELEDPlayer.Common.Model.ProjectInfo&gt;">
+      <Item value="Add" priority="1" />
+      <Item value="AddRange" priority="0" />
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Newtonsoft.Json.JavaScriptConvert">
+      <Item value="DeserializeObject" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.StringSplitOptions">
+      <Item value="None" priority="0" />
+      <Item value="RemoveEmptyEntries" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Control">
+      <Item value="Tag" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Label">
+      <Item value="Location" priority="9" />
+      <Item value="Validated" priority="0" />
+      <Item value="ForeColor" priority="6" />
+      <Item value="BackColor" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AxShockwaveFlashObjects.AxShockwaveFlash">
+      <Item value="Size" priority="0" />
+      <Item value="Location" priority="0" />
+      <Item value="Menu" priority="1" />
+      <Item value="Movie" priority="1" />
+      <Item value="Playing" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewRow">
+      <Item value="Cells" priority="0" />
+      <Item value="Selected" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CAEELEDPlayer.ExControls.Clock.LEDClockControls">
+      <Item value="CountDownEndTime" priority="0" />
+      <Item value="BackColor" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;CAEELEDPlayer.Common.Model.ResponseData&gt;">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@CAEELEDPlayer.Common.Screen2Data.frm">
+      <Item value="FScreen2" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CAEELEDPlayer.Common.Model.Buy">
+      <Item value="isOver" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewCellStyle">
+      <Item value="ForeColor" priority="5" />
+      <Item value="BackColor" priority="3" />
+      <Item value="Font" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Panel">
+      <Item value="Focus" priority="2" />
+      <Item value="Parent" priority="0" />
+      <Item value="Top" priority="0" />
+      <Item value="Dock" priority="0" />
+      <Item value="Visible" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CAEELEDPlayer.frmChooseBuy">
+      <Item value="Close" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewColumn">
+      <Item value="Name" priority="4" />
+      <Item value="DefaultCellStyle" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Collections">
+      <Item value="Generic" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@CAEELEDPlayer.Common.RequestData">
+      <Item value="GetData" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CAEELEDPlayer.Settings.SettingsScreen1">
+      <Item value="S1Title" priority="0" />
+      <Item value="S1TimeLocation" priority="1" />
+      <Item value="S1TableContextHeight" priority="1" />
+      <Item value="S1TitleLocation" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CAEELEDPlayer.ExControls.PanelEx">
+      <Item value="BorderColor" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CAEELEDPlayer.Common.Model.ProjectShowInfo">
+      <Item value="reserveBasePrice" priority="0" />
+      <Item value="code" priority="3" />
+      <Item value="modeKey" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CAEELEDPlayer.Common.FormControl">
+      <Item value="SaveScreen2Default" priority="1" />
+      <Item value="FScreen2" priority="36" />
+      <Item value="FConsole" priority="0" />
+      <Item value="CurrentScreen" priority="0" />
+      <Item value="FScreen1" priority="12" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Media">
+      <Item value="SoundPlayer" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CAEELEDPlayer.frmLEDScreen4">
+      <Item value="scrollingTextAffiche" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Thread">
+      <Item value="Start" priority="0" />
+      <Item value="Abort" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;System.Drawing.Color&gt;">
+      <Item value="Add" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format" priority="4" />
+      <Item value="IsNullOrEmpty" priority="4" />
+      <Item value="Empty" priority="13" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.NumericUpDown[]">
+      <Item value="Length" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TabControl">
+      <Item value="TabPages" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Net.WebRequest">
+      <Item value="Create" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewRowCollection">
+      <Item value="Contains" priority="0" />
+      <Item value="Count" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Timer">
+      <Item value="Interval" priority="1" />
+      <Item value="Enabled" priority="1" />
+      <Item value="Tick" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;System.Windows.Forms.DataGridViewColumn&gt;">
+      <Item value="Add" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.Stream">
+      <Item value="Seek" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToInt32" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text.RegularExpressions.RegexOptions">
+      <Item value="IgnoreCase" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Point">
+      <Item value="X" priority="4" />
+      <Item value="Y" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:string">
+      <Item value="Trim" priority="3" />
+      <Item value="Split" priority="0" />
+      <Item value="Length" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime.Now">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.CheckBox">
+      <Item value="Checked" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@CAEELEDPlayer.Common.FormControl.thRequestData2">
+      <Item value="Start" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.RadioButton">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <EditorManager>
+    <RecentFiles>
+      <File id="28B59D9D-A0D3-4AD1-8453-7C29BD973AC3/d:Common/f:AccessHelper.cs" caret="289" visual-x="0" visual-y="2028" />
+      <File id="28B59D9D-A0D3-4AD1-8453-7C29BD973AC3/d:Common/f:CommFunction.cs" caret="944" visual-x="0" visual-y="0" />
+      <File id="28B59D9D-A0D3-4AD1-8453-7C29BD973AC3/d:Settings/f:SettingsCommon.cs" caret="3230" visual-x="0" visual-y="1040" />
+      <File id="28B59D9D-A0D3-4AD1-8453-7C29BD973AC3/f:Program.cs" caret="285" visual-x="0" visual-y="0" />
+      <File id="28B59D9D-A0D3-4AD1-8453-7C29BD973AC3/d:Settings/f:SettingsScreen1.cs" caret="11256" visual-x="0" visual-y="4615" />
+      <File id="28B59D9D-A0D3-4AD1-8453-7C29BD973AC3/d:Common/d:Model/f:ProjectInfo.cs" caret="130" visual-x="0" visual-y="0" />
+      <File id="28B59D9D-A0D3-4AD1-8453-7C29BD973AC3/d:Common/d:Model/f:Buy.cs" caret="106" visual-x="0" visual-y="91" />
+      <File id="28B59D9D-A0D3-4AD1-8453-7C29BD973AC3/f:frmLEDScreen1.cs" caret="1703" visual-x="0" visual-y="533" />
+      <File id="8029AAEC-8B7C-4098-9C5F-EF2795F21BC5/f:AssemblyInfo.cs" caret="469" visual-x="0" visual-y="0" />
+      <File id="28B59D9D-A0D3-4AD1-8453-7C29BD973AC3/f:app.config" caret="0" visual-x="0" visual-y="0" />
+      <File id="28B59D9D-A0D3-4AD1-8453-7C29BD973AC3/d:Common/f:RequestData.cs" caret="0" visual-x="0" visual-y="0" />
+      <File id="28B59D9D-A0D3-4AD1-8453-7C29BD973AC3/d:Common/f:Screen1Data.cs" caret="0" visual-x="0" visual-y="0" />
+      <File id="28B59D9D-A0D3-4AD1-8453-7C29BD973AC3/d:Common/f:ConfigReader.cs" caret="0" visual-x="0" visual-y="0" />
+      <File id="28B59D9D-A0D3-4AD1-8453-7C29BD973AC3/f:frmFlashDemo.cs" caret="0" visual-x="0" visual-y="0" />
+      <File id="28B59D9D-A0D3-4AD1-8453-7C29BD973AC3/d:Properties/f:AssemblyInfo.cs" caret="847" visual-x="0" visual-y="0" />
+      <File id="28B59D9D-A0D3-4AD1-8453-7C29BD973AC3/d:ExControls/f:PanelEx.cs" caret="1983" visual-x="0" visual-y="676" />
+      <File id="28B59D9D-A0D3-4AD1-8453-7C29BD973AC3/d:ExControls/f:MyColorDialog.cs" caret="1846" visual-x="0" visual-y="0" />
+      <File id="28B59D9D-A0D3-4AD1-8453-7C29BD973AC3/d:ExControls/d:Clock/f:LEDClockControls.cs" caret="710" visual-x="0" visual-y="5824" />
+      <File id="28B59D9D-A0D3-4AD1-8453-7C29BD973AC3/d:ExControls/d:Clock/f:ClockControl.Designer.cs" caret="962" visual-x="0" visual-y="0" />
+      <File id="28B59D9D-A0D3-4AD1-8453-7C29BD973AC3/f:frmConsole.cs" caret="17893" visual-x="0" visual-y="1248" />
+      <File id="28B59D9D-A0D3-4AD1-8453-7C29BD973AC3/f:frmScreenSetting.cs" caret="1497" visual-x="0" visual-y="559" />
+      <File id="28B59D9D-A0D3-4AD1-8453-7C29BD973AC3/d:ExControls/d:Clock/f:ClockControl.cs" caret="2448" visual-x="0" visual-y="1066" />
+      <File id="28B59D9D-A0D3-4AD1-8453-7C29BD973AC3/d:Common/d:Model/f:ProjectShowInfo.cs" caret="5361" visual-x="0" visual-y="2587" />
+      <File id="28B59D9D-A0D3-4AD1-8453-7C29BD973AC3/f:frmLogin.cs" caret="594" visual-x="0" visual-y="0" />
+      <File id="28B59D9D-A0D3-4AD1-8453-7C29BD973AC3/d:Common/d:Model/f:ProjectFiled.cs" caret="148" visual-x="0" visual-y="0" />
+      <File id="28B59D9D-A0D3-4AD1-8453-7C29BD973AC3/d:Common/d:Model/f:ProjectStatus.cs" caret="250" visual-x="0" visual-y="0" />
+      <File id="28B59D9D-A0D3-4AD1-8453-7C29BD973AC3/d:Common/d:Model/f:ResponseData.cs" caret="515" visual-x="0" visual-y="0" />
+      <File id="28B59D9D-A0D3-4AD1-8453-7C29BD973AC3/d:Common/f:Screen2Data.cs" caret="4728" visual-x="0" visual-y="1625" />
+      <File id="28B59D9D-A0D3-4AD1-8453-7C29BD973AC3/d:Common/f:FormControl.cs" caret="5996" visual-x="0" visual-y="12116" />
+      <File id="28B59D9D-A0D3-4AD1-8453-7C29BD973AC3/f:frmLEDScreen2.cs" caret="18867" visual-x="0" visual-y="6357" />
+    </RecentFiles>
+  </EditorManager>
+  <FileStructureView>
+    <AutoScrollToSource>False</AutoScrollToSource>
+    <TrackCaretLocation>False</TrackCaretLocation>
+  </FileStructureView>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <ReFormatCode>
+    <OptimizeUsings>False</OptimizeUsings>
+    <RemoveRedundantThis>False</RemoveRedundantThis>
+    <ShortenReferences>False</ShortenReferences>
+    <DecorateModifiers>False</DecorateModifiers>
+  </ReFormatCode>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="JetBrains.ReSharper.CodeInsight.FindUsages.FindMethodDialog.checkBoxSearchLibraries">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <SharedSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </SharedSolutionDisabledTemplatesManager>
+  <UserSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </UserSolutionDisabledTemplatesManager>
+</Configuration>

@@ -1,0 +1,6 @@
+E:\temp\CAEELEDPlayer02\CAEELEDPlayer\ScrollingTextControl\bin\Debug\ScrollingTextControl.dll
+E:\temp\CAEELEDPlayer02\CAEELEDPlayer\ScrollingTextControl\bin\Debug\ScrollingTextControl.pdb
+E:\temp\CAEELEDPlayer02\CAEELEDPlayer\ScrollingTextControl\obj\Debug\ScrollingTextControl.ScrollingText.resources
+E:\temp\CAEELEDPlayer02\CAEELEDPlayer\ScrollingTextControl\obj\Debug\ScrollingTextControl.csproj.GenerateResource.Cache
+E:\temp\CAEELEDPlayer02\CAEELEDPlayer\ScrollingTextControl\obj\Debug\ScrollingTextControl.dll
+E:\temp\CAEELEDPlayer02\CAEELEDPlayer\ScrollingTextControl\obj\Debug\ScrollingTextControl.pdb

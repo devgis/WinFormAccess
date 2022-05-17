@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<configSections>
+	</configSections>
+	<connectionStrings>
+		<add name="CAEELEDPlayer.Properties.Settings.LEDInfoConnectionString"
+            connectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\Resources\LEDInfo.mdb;Persist Security Info=True"
+            providerName="System.Data.OleDb" />
+	</connectionStrings>
+	<appSettings>
+
+		<!--发送请求间隔时间，以秒为单位-->
+		<add key="RequestSpan" value="1"/>
+
+		<!--屏幕1发送请求数据源-->
+		<add key="RequestSource" value="http://114.80.81.41:8888/getLedData.action?cmd={0}"/>
+
+		<!--屏幕2发送请求数据源-->
+		<add key="RequestSource2" value="http://192.168.0.179:8080/cp/getLedData.action?cmd={0}"/>
+
+	</appSettings>
+	<system.net>
+		<settings>
+			<httpWebRequest useUnsafeHeaderParsing="true"/>
+		</settings>
+	</system.net>
+</configuration>

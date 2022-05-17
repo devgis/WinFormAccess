@@ -1,0 +1,10 @@
+E:\temp\CAEELEDPlayer\ScrollingTextControl\bin\Release\ScrollingTextControl.dll
+E:\temp\CAEELEDPlayer\ScrollingTextControl\obj\Release\ScrollingTextControl.csprojResolveAssemblyReference.cache
+E:\temp\CAEELEDPlayer\ScrollingTextControl\obj\Release\ScrollingTextControl.ScrollingText.resources
+E:\temp\CAEELEDPlayer\ScrollingTextControl\obj\Release\ScrollingTextControl.csproj.GenerateResource.Cache
+E:\temp\CAEELEDPlayer\ScrollingTextControl\obj\Release\ScrollingTextControl.dll
+E:\temp\CAEELEDPlayer02\CAEELEDPlayer\ScrollingTextControl\bin\Release\ScrollingTextControl.dll
+E:\temp\CAEELEDPlayer02\CAEELEDPlayer\ScrollingTextControl\obj\Release\ScrollingTextControl.csprojResolveAssemblyReference.cache
+E:\temp\CAEELEDPlayer02\CAEELEDPlayer\ScrollingTextControl\obj\Release\ScrollingTextControl.ScrollingText.resources
+E:\temp\CAEELEDPlayer02\CAEELEDPlayer\ScrollingTextControl\obj\Release\ScrollingTextControl.csproj.GenerateResource.Cache
+E:\temp\CAEELEDPlayer02\CAEELEDPlayer\ScrollingTextControl\obj\Release\ScrollingTextControl.dll

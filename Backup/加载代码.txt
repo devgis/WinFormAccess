@@ -1,0 +1,17 @@
+List<ProjectInfo> modelist = new List<ProjectInfo>();
+                    DataSet dsResult = AccessHelper.Query("select * form ProjectInfo");
+                    if (dsResult != null && dsResult.Tables.Count > 0 && dsResult.Tables[0].Rows.Count > 0)
+                    {
+                        foreach (DataRow row in dsResult.Tables[0].Rows)
+                        {
+                            ProjectInfo p = new ProjectInfo();
+                            p.code = row["项目编号"].ToString();
+                            p.projectName = row["项目名称"].ToString();
+                            p.area = row["归属地"].ToString();
+                            p.property = row["产权类型"].ToString();
+                            p.releasePrice = row["挂牌价格"].ToString();
+                            p.status = row["交易状态"].ToString();
+                            modelist.Add(p);
+                        }
+                    }
+                    frm.FScreen1.AddData(modelist);

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="LEDInfo" targetNamespace="http://tempuri.org/LEDInfo.xsd" xmlns:mstns="http://tempuri.org/LEDInfo.xsd" xmlns="http://tempuri.org/LEDInfo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="LEDInfoConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="LEDInfoConnectionString (Settings)" PropertyReference="ApplicationSettings.CAEELEDPlayer.Properties.Settings.GlobalReference.Default.LEDInfoConnectionString" Provider="System.Data.OleDb">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="LEDInfo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="LEDInfo" msprop:Generator_DataSetName="LEDInfo">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="BiddingInfo" msprop:Generator_UserTableName="BiddingInfo" msprop:Generator_RowDeletedName="BiddingInfoRowDeleted" msprop:Generator_TableClassName="BiddingInfoDataTable" msprop:Generator_RowChangedName="BiddingInfoRowChanged" msprop:Generator_RowClassName="BiddingInfoRow" msprop:Generator_RowChangingName="BiddingInfoRowChanging" msprop:Generator_RowEvArgName="BiddingInfoRowChangeEvent" msprop:Generator_RowEvHandlerName="BiddingInfoRowChangeEventHandler" msprop:Generator_TablePropName="BiddingInfo" msprop:Generator_TableVarName="tableBiddingInfo" msprop:Generator_RowDeletingName="BiddingInfoRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_UserColumnName="id" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInTable="idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="code" msprop:Generator_UserColumnName="code" msprop:Generator_ColumnPropNameInRow="code" msprop:Generator_ColumnVarNameInTable="columncode" msprop:Generator_ColumnPropNameInTable="codeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="projectName" msprop:Generator_UserColumnName="projectName" msprop:Generator_ColumnPropNameInRow="projectName" msprop:Generator_ColumnVarNameInTable="columnprojectName" msprop:Generator_ColumnPropNameInTable="projectNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="area" msprop:Generator_UserColumnName="area" msprop:Generator_ColumnPropNameInRow="area" msprop:Generator_ColumnVarNameInTable="columnarea" msprop:Generator_ColumnPropNameInTable="areaColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="property" msprop:Generator_UserColumnName="property" msprop:Generator_ColumnPropNameInRow="property" msprop:Generator_ColumnVarNameInTable="columnproperty" msprop:Generator_ColumnPropNameInTable="propertyColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="releasePrice" msprop:Generator_UserColumnName="releasePrice" msprop:Generator_ColumnPropNameInRow="releasePrice" msprop:Generator_ColumnVarNameInTable="columnreleasePrice" msprop:Generator_ColumnPropNameInTable="releasePriceColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="releaseRatio" msprop:Generator_UserColumnName="releaseRatio" msprop:Generator_ColumnPropNameInRow="releaseRatio" msprop:Generator_ColumnVarNameInTable="columnreleaseRatio" msprop:Generator_ColumnPropNameInTable="releaseRatioColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="startTime" msprop:Generator_UserColumnName="startTime" msprop:Generator_ColumnPropNameInRow="startTime" msprop:Generator_ColumnVarNameInTable="columnstartTime" msprop:Generator_ColumnPropNameInTable="startTimeColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="endTime" msprop:Generator_UserColumnName="endTime" msprop:Generator_ColumnPropNameInRow="endTime" msprop:Generator_ColumnVarNameInTable="columnendTime" msprop:Generator_ColumnPropNameInTable="endTimeColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="buyStartTime" msprop:Generator_UserColumnName="buyStartTime" msprop:Generator_ColumnPropNameInRow="buyStartTime" msprop:Generator_ColumnVarNameInTable="columnbuyStartTime" msprop:Generator_ColumnPropNameInTable="buyStartTimeColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="buyEndTime" msprop:Generator_UserColumnName="buyEndTime" msprop:Generator_ColumnPropNameInRow="buyEndTime" msprop:Generator_ColumnVarNameInTable="columnbuyEndTime" msprop:Generator_ColumnPropNameInTable="buyEndTimeColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="basePrice" msprop:Generator_UserColumnName="basePrice" msprop:Generator_ColumnPropNameInRow="basePrice" msprop:Generator_ColumnVarNameInTable="columnbasePrice" msprop:Generator_ColumnPropNameInTable="basePriceColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="priceStep" msprop:Generator_UserColumnName="priceStep" msprop:Generator_ColumnPropNameInRow="priceStep" msprop:Generator_ColumnVarNameInTable="columnpriceStep" msprop:Generator_ColumnPropNameInTable="priceStepColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
